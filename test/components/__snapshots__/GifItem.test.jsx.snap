@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <GifItem/> Debe mostrar el componente correctamente  1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Mustis"
+      src="https://localhost/algo.jpg"
+    />
+    <p>
+      Mustis
+    </p>
+  </div>
+</div>
+`;
