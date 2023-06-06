@@ -7,7 +7,9 @@ export const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h3 className="text-center text-xs sm:text-sm xl:text-2xl uppercase p-3">{category}</h3>
+      <h3 className="text-center text-xs sm:text-sm xl:text-2xl uppercase p-3  text-black dark:text-fuchsia-300">
+        {category}
+      </h3>
       {loading && <p>Loading...</p>}
       <div className="grid grid-cols-1 sm:grid-cols-2 justify-around  md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-5  gap-4 m-5">
         {images.map(image => (

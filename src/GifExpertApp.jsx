@@ -12,7 +12,7 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <div className="bg-paleta1-300 max-h-full">
+      <div className="bg-paleta1B-100 max-h-full">
         <div className="p-4">
           <h1 className="mb-4 text-3xl font-extrabold text-center text-gray-900 dark:text-white md:text-5xl lg:text-6xl  start-px">
             Buscador de Gifts
